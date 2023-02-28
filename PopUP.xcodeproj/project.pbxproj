@@ -14,6 +14,8 @@
 		157BA80229ABE24C005AFCD0 /* PopUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157BA80129ABE24C005AFCD0 /* PopUPTests.swift */; };
 		157BA80C29ABE24C005AFCD0 /* PopUPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157BA80B29ABE24C005AFCD0 /* PopUPUITests.swift */; };
 		157BA80E29ABE24C005AFCD0 /* PopUPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157BA80D29ABE24C005AFCD0 /* PopUPUITestsLaunchTests.swift */; };
+		157BA81D29ACE857005AFCD0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157BA81C29ACE857005AFCD0 /* DetailView.swift */; };
+		157BA85F29AEA8F4005AFCD0 /* NewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157BA85E29AEA8F4005AFCD0 /* NewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		157BA80729ABE24C005AFCD0 /* PopUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		157BA80B29ABE24C005AFCD0 /* PopUPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUPUITests.swift; sourceTree = "<group>"; };
 		157BA80D29ABE24C005AFCD0 /* PopUPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		157BA81C29ACE857005AFCD0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		157BA85E29AEA8F4005AFCD0 /* NewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				157BA7EF29ABE249005AFCD0 /* PopUPApp.swift */,
 				157BA7F129ABE249005AFCD0 /* ContentView.swift */,
+				157BA85E29AEA8F4005AFCD0 /* NewScreen.swift */,
+				157BA81C29ACE857005AFCD0 /* DetailView.swift */,
 				157BA7F329ABE24C005AFCD0 /* Assets.xcassets */,
 				157BA7F529ABE24C005AFCD0 /* PopUP.entitlements */,
 				157BA7F629ABE24C005AFCD0 /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157BA85F29AEA8F4005AFCD0 /* NewScreen.swift in Sources */,
 				157BA7F229ABE249005AFCD0 /* ContentView.swift in Sources */,
+				157BA81D29ACE857005AFCD0 /* DetailView.swift in Sources */,
 				157BA7F029ABE249005AFCD0 /* PopUPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
